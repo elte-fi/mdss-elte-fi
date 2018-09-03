@@ -1,0 +1,16 @@
+{
+  "name": "mdss-elte-fi",
+  "version": "1.0.0",
+  "description": "MDSS builds for ELTE FI",
+  "author": "Márton Visnovitz <vimtaai@inf.elte.hu>",
+  "license": "UNLICENSED",
+  "repository": "github:elte-fi/mdss-elte-fi",
+  "bugs": "https://github.com/elte-fi/mdss-elte-fi/issues",
+  "homepage": "https://github.com/elte-fi/mdss-elte-fi#readme",
+  "scripts": {
+    "build:default": "cd default && mdss build"
+  },
+  "devDependencies": {
+    "mdss": "^2.0.3"
+  }
+}

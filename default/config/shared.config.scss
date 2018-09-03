@@ -1,0 +1,28 @@
+// Colors
+$color-white          : hsl(0, 0%, 100%);
+$color-gray-light     : hsl(215, 25%, 95%);
+$color-gray-medium    : hsl(215, 15%, 85%);
+$color-gray-dark      : hsl(215, 25%, 15%);
+$color-black          : hsl(0, 0%, 0%);
+$color-red            : hsl(0, 75%, 45%);
+$color-green          : hsl(150, 60%, 45%);
+$color-blue           : hsl(210, 73%, 42%);
+$color-yellow         : hsl(50, 90%, 45%);
+$color-purple         : hsl(280, 40%, 45%);
+$color-violet         : hsl(330, 50%, 45%);
+$color-brown          : hsl(20, 40%, 45%);
+$color-primary        : hsl(185, 23%, 41%);
+$color-accent         : hsl(90, 5%, 48%);
+
+// Fonts
+$font-serif           : "Roboto Slab", "Cambria", "Times New Roman", "Times", serif;
+$font-sans-serif      : "Roboto", "Arial", "HelveticaNeue", sans-serif;
+$font-condensed       : "Roboto Condensed", "Arial Narrow", "HelveticaNeue", sans-serif;
+$font-monospace       : "Roboto Mono", "Consolas", "Monaco", monospace;
+
+// Root Element Selector
+$root-selector        : "";
+$print-only-root      : false;
+
+// Transition
+$transition-duration  : 250ms;
