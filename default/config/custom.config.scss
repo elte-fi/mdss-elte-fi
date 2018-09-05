@@ -5,16 +5,17 @@
   header {
     margin-bottom: $spacing-huge;
 
-    span {
-      font-family: $font-serif;
-      font-size: 16px;
-      line-height: 0.8;
-      vertical-align: bottom;
-    }
-
     a {
-      color: $color-accent;
+      display: block;
+      font-size: 16px;
       font-weight: normal;
+      
+      span {
+        color: $color-accent;
+        display: block;
+        font-family: $font-serif;
+        padding-top: $spacing-small;
+      }
     }
   }
 
