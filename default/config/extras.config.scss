@@ -36,16 +36,16 @@ $enable-container-sticky          : true;
 // Syntax Highlighting
 $enable-syntax-highlighting       : true;
   $syntax-highlighting-colors     : (
-    ".hljs-comment"                 : $color-brown,  // Comments
-    ".hljs-keyword, .hljs-built_in" : $color-blue,   // Keywords
-    ".hljs-literal"                 : $color-blue,   // Literals (e.g. null, true, false)
-    ".hljs-string"                  : $color-purple, // Strings
-    ".hljs-subst"                   : $color-violet, // String placeholders (e.g. ${})
-    ".hljs-number"                  : $color-purple, // Numbers
-    ".hljs-regexp"                  : $color-violet, // Regular expressions
-    ".hljs-title"                   : $color-green,  // Function/Class names
-    ".hljs-tag, .hljs-name"         : $color-blue,   // HTML/XML tag names
-    ".hljs-attr"                    : $color-green   // HTML/XML attribute names
+    ".token.comment"                     : $color-brown,  // Comments
+    ".token.keyword"                     : $color-blue,   // Keywords
+    ".token.constant, .token.boolean"    : $color-blue,   // Literals (e.g. null, true, false)
+    ".token.string, .token.char"         : $color-violet, // Strings
+    ".token.interpolation"               : $color-purple, // String placeholders (e.g. ${})
+    ".token.number"                      : $color-violet, // Numbers
+    ".token.regex"                       : $color-purple, // Regular expressions
+    ".token.function, .token.class-name" : $color-green, // Function/Class names
+    ".token.tag, .token.attr-name"       : $color-blue,   // HTML/XML tag names
+    ".token.attr"                        : $color-green   // HTML/XML attribute names
   );
 
   // Syntax Highlighting for Pandoc
